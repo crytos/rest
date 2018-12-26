@@ -3,7 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/masterconnects/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp /css $DEPLOYPATH
-    - /bin/cp /js $DEPLOYPATH
-    - /bin/cp /images $DEPLOYPATH
-    - /bin/cp /fonts $DEPLOYPATH
+    - /bin/cp css/* $DEPLOYPATH
+    - /bin/cp js/* $DEPLOYPATH
+    - /bin/cp images/* $DEPLOYPATH
+    - /bin/cp fonts/* $DEPLOYPATH
